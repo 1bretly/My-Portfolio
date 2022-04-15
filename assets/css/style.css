@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.hero {
+    height: 75vh;
+    width: 100%;
+    background-image: url(../images/hero-me.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.logo {
+    color: whitesmoke;
+    text-shadow: 2px 2px red;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+nav ul li:hover {
+    transition: .4s;
+    transform: scale(1.4);
+}
+
+nav ul li a:hover {
+    color: red;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+.about-me {
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    font-size: 50px;
+}
+
+.scroll-bg-color {
+    margin-top: 10px;
+    background-color: whitesmoke;
+    width: 30%;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 3px 3px black;
+}
+
+.scroll-space {
+    background-color: whitesmoke;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.scroll-text {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 20px;
+}
